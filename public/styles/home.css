@@ -1,0 +1,217 @@
+/* General body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+#header-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+/* Header content alignment */
+header {
+    background: transparent;
+    padding: 1rem;
+    margin: 0 5px;
+    border-bottom: 0;
+}
+
+/* Brand name styling */
+.brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* Sidebar styling */
+#sidebar {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: transparent;
+    color: black;
+    padding: 1rem;
+    z-index: 100;
+}
+
+/* Show the sidebar when active */
+.show-sidebar {
+    display: block;
+}
+
+/* Offcanvas styling */
+.offcanvas {
+    background-color: transparent !important; /* Ensure transparency */
+    color: black; /* Text color */
+    z-index: 1050; /* Ensure it appears above other content */
+}
+
+/* Carousel styling */
+#carouselExampleSlidesOnly {
+    position: relative;
+    z-index: 1;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+}
+
+/* Carousel caption styling */
+.carousel-caption {
+    top: 70%;
+    bottom: auto;
+    left: 20px; /* Align the text to the left */
+    text-align: left;
+    transform: translateY(-50%);
+}
+
+.carousel-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.carousel-subheading {
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+.mainContainer{
+   margin:5px;
+   padding-top: 5px;
+}
+
+#seeAll{
+    text-decoration: none;
+    color: #E74C3C;
+}
+
+/* Responsive Styles for Header */
+@media (max-width: 768px) {
+  #search {
+    display: none;
+  }
+}
+
+/* Responsive Styles for Carousel */
+.carousel-caption {
+  bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    bottom: 10px;
+    left: 5%;
+    right: 5%;
+  }
+}
+
+/* General Styles */
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.card-img-top {
+  height: 225px;
+  object-fit: cover;
+}
+
+/* Footer Styles */
+#footer {
+  background-color: #343a40;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Offcanvas Menu */
+.offcanvas-body {
+  padding: 1rem;
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+    .mainContainer{
+        padding: 5px;
+    }
+    .nav, .text-end {
+        display: none !important;
+    }
+    
+
+    #carouselExampleSlidesOnly {
+        min-height: 400px; /* Set minimum height for small screens */
+    }
+
+    .carousel-item img {
+        height: 400px; /* Ensure carousel images are 400px in height on small screens */
+    }
+
+    /* Sidebar full width on small screens */
+    #sidebar {
+        width: 50%;
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+
+    .offcanvas-header {
+        background-color: #FFFFFF;
+        color: #2C3E50;
+    }
+
+    .nav-item {
+        list-style-type: none;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+    .nav-link:hover {
+        background-color: rgba(0, 0, 0, 0.247);
+        color: #FFFFFF;
+    }
+
+    /* Adjust carousel caption for smaller screens */
+    .carousel-caption {
+        position: static;
+        transform: none;
+        padding: 1rem;
+        text-align: left; /* Ensure left alignment on smaller screens */
+    }
+
+    .carousel-heading {
+        font-size: 1.5rem;
+    }
+
+    .carousel-subheading {
+        font-size: 1rem;
+    }
+
+     #techImg{
+        margin: 5px;
+        padding: 10px;
+     }
+}
+
+
+  
+  
+  

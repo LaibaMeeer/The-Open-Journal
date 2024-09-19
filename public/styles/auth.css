@@ -1,0 +1,43 @@
+/* Background image for the body */
+body {
+    background-image: url('../images/4.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Styling for the primary button */
+  button.btn-primary {
+    background-color: #3498DB !important;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #2980B9 !important;
+  }
+  
+  /* Styling for the Google button */
+  button.btn-outline-secondary {
+    border: 2px solid #3498DB;
+    color: #3498DB;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button.btn-outline-secondary:hover {
+    background-color: #3498DB;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+  }
+  
+  /* Make the modal content background semi-transparent */
+  .modal-content {
+    background-color: transparent ;/* White with 80% opacity */
+    backdrop-filter: blur(10px); /* Optional: adds a subtle blur effect behind the modal */
+    border-radius: 15px;
+  }
+  .text-body-secondary{
+    color: #FFFFFF !important;
+  }
+  

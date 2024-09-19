@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.user-image {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.user-details {
+    flex: 1;
+}
+
+.user-details h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-actions {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.profile-actions a {
+    text-decoration: none;
+    color: #1ABC9C;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.profile-actions a.logout {
+    color: #E74C3C;
+}
+
+.profile-actions a:hover {
+    text-decoration: underline;
+}
+
+.blog-list {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.blog-list h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.blog-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blog-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.blog-info {
+    flex: 1;
+}
+
+.blog-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.detail-link {
+    text-decoration: none;
+    color: #1ABC9C;
+    font-weight: bold;
+}
+
+.detail-link:hover {
+    text-decoration: underline;
+}
